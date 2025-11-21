@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
+  <reporter-output>
+    <line>
+      <![CDATA[festiveOffer_92 campaign created successfully]]>
+    </line>
+    <line>
+      <![CDATA[contact is created with org name successfully]]>
+    </line>
+    <line>
+      <![CDATA[contact created successfully with support Date]]>
+    </line>
+  </reporter-output>
+  <suite started-at="2025-11-21T12:38:58 IST" name="Default suite" finished-at="2025-11-21T12:39:42 IST" duration-ms="44308">
+    <groups>
+      <group name="regressionTest">
+        <method signature="CreateOrgWithContactAndSelectOrgName.createcontactwithSupportDate()[pri:0, instance:com.comcast.crm.createContactTest.CreateOrgWithContactAndSelectOrgName@74e28667]" name="createcontactwithSupportDate" class="com.comcast.crm.createContactTest.CreateOrgWithContactAndSelectOrgName"/>
+      </group> <!-- regressionTest -->
+      <group name="smokeTest">
+        <method signature="CreateOrgWithContactAndSelectOrgName.createCampaign()[pri:0, instance:com.comcast.crm.createContactTest.CreateOrgWithContactAndSelectOrgName@74e28667]" name="createCampaign" class="com.comcast.crm.createContactTest.CreateOrgWithContactAndSelectOrgName"/>
+        <method signature="CreateOrgWithContactAndSelectOrgName.createOrgwithcontact()[pri:0, instance:com.comcast.crm.createContactTest.CreateOrgWithContactAndSelectOrgName@74e28667]" name="createOrgwithcontact" class="com.comcast.crm.createContactTest.CreateOrgWithContactAndSelectOrgName"/>
+      </group> <!-- smokeTest -->
+    </groups>
+    <test started-at="2025-11-21T12:38:58 IST" name="Default test" finished-at="2025-11-21T12:39:42 IST" duration-ms="44308">
+      <class name="com.comcast.crm.createContactTest.CreateOrgWithContactAndSelectOrgName">
+        <test-method is-config="true" signature="configBS()[pri:0, instance:com.comcast.crm.createContactTest.CreateOrgWithContactAndSelectOrgName@74e28667]" started-at="2025-11-21T12:38:58 IST" name="configBS" finished-at="2025-11-21T12:38:58 IST" duration-ms="18" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configBS -->
+        <test-method is-config="true" signature="configBT()[pri:0, instance:com.comcast.crm.createContactTest.CreateOrgWithContactAndSelectOrgName@74e28667]" started-at="2025-11-21T12:38:58 IST" name="configBT" finished-at="2025-11-21T12:38:58 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configBT -->
+        <test-method is-config="true" signature="configBC()[pri:0, instance:com.comcast.crm.createContactTest.CreateOrgWithContactAndSelectOrgName@74e28667]" started-at="2025-11-21T12:38:58 IST" name="configBC" finished-at="2025-11-21T12:39:02 IST" duration-ms="3955" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configBC -->
+        <test-method is-config="true" signature="configBM()[pri:0, instance:com.comcast.crm.createContactTest.CreateOrgWithContactAndSelectOrgName@74e28667]" started-at="2025-11-21T12:39:02 IST" name="configBM" finished-at="2025-11-21T12:39:07 IST" duration-ms="4847" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configBM -->
+        <test-method signature="createCampaign()[pri:0, instance:com.comcast.crm.createContactTest.CreateOrgWithContactAndSelectOrgName@74e28667]" started-at="2025-11-21T12:39:07 IST" name="createCampaign" finished-at="2025-11-21T12:39:11 IST" duration-ms="4053" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[festiveOffer_92 campaign created successfully]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- createCampaign -->
+        <test-method is-config="true" signature="configAM()[pri:0, instance:com.comcast.crm.createContactTest.CreateOrgWithContactAndSelectOrgName@74e28667]" started-at="2025-11-21T12:39:11 IST" name="configAM" finished-at="2025-11-21T12:39:16 IST" duration-ms="5101" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configAM -->
+        <test-method is-config="true" signature="configBM()[pri:0, instance:com.comcast.crm.createContactTest.CreateOrgWithContactAndSelectOrgName@74e28667]" started-at="2025-11-21T12:39:16 IST" name="configBM" finished-at="2025-11-21T12:39:17 IST" duration-ms="1444" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configBM -->
+        <test-method signature="createOrgwithcontact()[pri:0, instance:com.comcast.crm.createContactTest.CreateOrgWithContactAndSelectOrgName@74e28667]" started-at="2025-11-21T12:39:17 IST" name="createOrgwithcontact" finished-at="2025-11-21T12:39:25 IST" duration-ms="7842" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[contact is created with org name successfully]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- createOrgwithcontact -->
+        <test-method is-config="true" signature="configAM()[pri:0, instance:com.comcast.crm.createContactTest.CreateOrgWithContactAndSelectOrgName@74e28667]" started-at="2025-11-21T12:39:25 IST" name="configAM" finished-at="2025-11-21T12:39:30 IST" duration-ms="4977" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configAM -->
+        <test-method is-config="true" signature="configBM()[pri:0, instance:com.comcast.crm.createContactTest.CreateOrgWithContactAndSelectOrgName@74e28667]" started-at="2025-11-21T12:39:30 IST" name="configBM" finished-at="2025-11-21T12:39:31 IST" duration-ms="747" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configBM -->
+        <test-method signature="createcontactwithSupportDate()[pri:0, instance:com.comcast.crm.createContactTest.CreateOrgWithContactAndSelectOrgName@74e28667]" started-at="2025-11-21T12:39:31 IST" name="createcontactwithSupportDate" finished-at="2025-11-21T12:39:36 IST" duration-ms="5443" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[contact created successfully with support Date]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- createcontactwithSupportDate -->
+        <test-method is-config="true" signature="configAM()[pri:0, instance:com.comcast.crm.createContactTest.CreateOrgWithContactAndSelectOrgName@74e28667]" started-at="2025-11-21T12:39:36 IST" name="configAM" finished-at="2025-11-21T12:39:42 IST" duration-ms="5027" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configAM -->
+        <test-method is-config="true" signature="configAC()[pri:0, instance:com.comcast.crm.createContactTest.CreateOrgWithContactAndSelectOrgName@74e28667]" started-at="2025-11-21T12:39:42 IST" name="configAC" finished-at="2025-11-21T12:39:42 IST" duration-ms="762" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configAC -->
+        <test-method is-config="true" signature="configAT()[pri:0, instance:com.comcast.crm.createContactTest.CreateOrgWithContactAndSelectOrgName@74e28667]" started-at="2025-11-21T12:39:42 IST" name="configAT" finished-at="2025-11-21T12:39:42 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configAT -->
+        <test-method is-config="true" signature="configAS()[pri:0, instance:com.comcast.crm.createContactTest.CreateOrgWithContactAndSelectOrgName@74e28667]" started-at="2025-11-21T12:39:42 IST" name="configAS" finished-at="2025-11-21T12:39:42 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configAS -->
+      </class> <!-- com.comcast.crm.createContactTest.CreateOrgWithContactAndSelectOrgName -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
