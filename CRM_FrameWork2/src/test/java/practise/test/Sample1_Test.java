@@ -15,7 +15,7 @@ public class Sample1_Test  extends BaseClass
 	{
 		System.out.println("SampleTest1");
 		ThreadLocalClass.getTest().log(Status.INFO, "Compare Title of the Page");
-		//Assert.assertEquals("home", driver.getTitle());
+		Assert.assertEquals("Admin123@ Administrator1 - Home - vtiger CRM 5 - Commercial Open Source CRM", driver.getTitle());
 	}
 //	
 //	@Test

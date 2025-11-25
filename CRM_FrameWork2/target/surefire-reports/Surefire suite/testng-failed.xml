@@ -6,16 +6,59 @@
       <class name="com.comcast.crm.createOrgTest.CreateOrgTest">
         <methods>
           <include name="configAT"/>
+          <include name="configBS"/>
+          <include name="configBC"/>
+          <include name="createOrgwithIndusrty"/>
+          <include name="configBT"/>
+          <include name="configAS"/>
+          <include name="configAC"/>
+          <include name="configBM"/>
+          <include name="createOrgwithPhoneNumber"/>
+          <include name="configAM"/>
+          <include name="createOrg"/>
+        </methods>
+      </class> <!-- com.comcast.crm.createOrgTest.CreateOrgTest -->
+      <class name="CreateOrgTest">
+        <methods>
+          <include name="configAT"/>
+          <include name="configBC"/>
+          <include name="configBS"/>
+          <include name="configBT"/>
+          <include name="configAC"/>
+          <include name="configAS"/>
+          <include name="configBM"/>
+          <include name="configAM"/>
+          <include name="createOrg"/>
+        </methods>
+      </class> <!-- CreateOrgTest -->
+      <class name="com.comcast.crm.createContactTest.CreateOrgWithContactTest">
+        <methods>
+          <include name="configAT"/>
+          <include name="configBC"/>
+          <include name="configBS"/>
+          <include name="configBT"/>
+          <include name="configAS"/>
+          <include name="configAC"/>
+          <include name="createCampaign"/>
+          <include name="configBM"/>
+          <include name="createcontactwithSupportDate"/>
+          <include name="configAM"/>
+          <include name="createOrgwithcontact"/>
+        </methods>
+      </class> <!-- com.comcast.crm.createContactTest.CreateOrgWithContactTest -->
+      <class name="practise.test.Sample1_Test">
+        <methods>
+          <include name="configAT"/>
           <include name="configBC"/>
           <include name="configBS"/>
           <include name="configAC"/>
           <include name="configBT"/>
           <include name="configAS"/>
           <include name="configBM"/>
-          <include name="createOrgwithPhoneNumber"/>
+          <include name="sampleTest"/>
           <include name="configAM"/>
         </methods>
-      </class> <!-- com.comcast.crm.createOrgTest.CreateOrgTest -->
+      </class> <!-- practise.test.Sample1_Test -->
     </classes>
   </test> <!-- Surefire test(failed) -->
 </suite> <!-- Failed suite [Surefire suite] -->

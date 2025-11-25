@@ -50,7 +50,7 @@ public class BaseClass {
 	public void configBC(@Optional("chrome")String Browser) throws IOException 
 	{
 		//String browser=Browser;
-		String browser=System.getProperty("Browser");
+		String browser=System.getProperty("Browser",flib.getDataFromProperties("url"));
 		//String browser=flib.getDataFromProperties("url");
 		if(browser.equals("chrome"))
 		{
